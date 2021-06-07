@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    background-color: white;
+}
+
+.container {
+    flex: 1;    /* same as flex-grow: 1; */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Diodrum-Medium';
+    margin: 0; 
+    padding: 0;
+}
+
+h1, h2,h3,p{
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*starts </style> top of extra pages****************/
+#title-toppage {
+    color: rgb(21, 116, 45);
+    padding-bottom: 2px;
+    text-align: center;
+}
+#subtitle-toppage {
+    color: rgb(21, 116, 45);
+    padding-bottom: 2px;
+    text-align: center;
+}
+/*ends </style> top of extra pages****************/
+
+/* homepage *******************************/
+.text-highlight {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+.text-highlight strong{
+        color: rgb(21, 116, 45);
+    }
+.text-highlight h1 {
+    text-transform: none;
+    font-size: 30px;
+    color: #818181;
+    }
+.text-highlight p {
+    font-size: 15px;
+    color: #9a9a9a;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+.text-techdescription h1{
+  text-transform: none;
+  font-size: 20px;
+  color: #272727;
+
+}
+.text-techdescription p{
+  font-size: 15px;
+  color: #252525;
+  padding-right: 40px;
+
+}
+.homepage{
+  padding-left:5%;
+  padding-right:5%;
+}
+.homecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.homecontainer img {
+  width: 100%;
+  height: 300px;
+}
+
+.homecontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555 ;
+  opacity: 0.9;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.homecontainer .btn:hover {
+  background-color: black;
+}
+
+/*home - student information***********************/
+.homeinfo {
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+  
+.homeinfo:hover {
+border: 1px solid #777;
+  } 
+
+  @media only screen and (max-width: 700px) {
+    .homeinfo {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .homeinfo {
+      width: 100%;
+    }
+} 
+/*home - student information***********************/
+  
+
+/*starts table - informations php***********************/
+div.informations {
+    position: relative;
+    width: 100%;  
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+    text-align: center;
+  }
+  
+div.informations h2, h1, p, a{
+    color: black;
+}
+
+table, th, td{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid black;
+}
+table{
+    width: 100%; 
+}
+/*ends informatios***********************/
+
+
+
+/*starts back button*********************/ 
+.titles{
+    padding-left: 10px;
+    }
+    .titles a{
+    border: 1px solid gray;
+    width: 70px;
+    height: 30px;
+    padding-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(21, 116, 45);
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 2px;
+    transition: all .3s;
+    }
+    .titles a:hover{
+    border: 1px solid rgb(21, 116, 45);
+    color: black;
+    opacity: 0.7;
+    transition: all .3s;
+    }
+/*/ends back button**********************/
+
+
+
+  

@@ -1,0 +1,141 @@
+/*form findaemployee - search ******/
+.findanemployee, .reply{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    margin: auto;  
+}
+
+.form-btnsearch, #btnbook{
+    background-color: black;
+    color: white;
+    padding: 12px 50px;
+    margin: 10px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form-btnsearch:hover{
+    background: gray;
+}
+#btnbook:hover{
+    background: green;
+}
+
+.searchreply{
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    margin: auto; 
+    margin: 8px 0;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    outline: none;
+    color: gray;  
+}
+
+#count2{ /*dropdown box*/
+    width: 100%;
+    margin: 8px 0;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    outline: none;
+    color: gray;     
+}
+
+/*form welcome - result  ******/
+.form-reservation {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+}
+
+.form2 {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background: white;
+    padding: 20px 30px;
+    outline: none;
+    color: gray;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+}
+#check{ /*check-in and check-out date*/
+    width: 38%;
+    margin: 8px 0;
+    margin-top: 2px;
+    background: white;
+    color: gray;
+    padding: 10px 10px;
+    outline: none;     
+}
+#quant{ /*number of people and seats*/
+    width: 22%;
+    margin: 8px 0;
+    margin-top: 2px;
+    background: white;
+    color: gray;  
+    padding: 10px 10px;
+    outline: none; 
+    border-style: solid;
+    border-color: black;
+    border-width:2px;    
+}
+
+label.checktext, .quantity{
+  color:  gray;
+  margin: auto;   
+}
+textarea.contact-form {
+    resize: none;
+    height: 120px;
+}
+
+.form-btn {
+    float: right;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 12px 50px;
+    margin: 10px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background: gray;
+}
+#count{ /*dropdown box*/
+    width: 35%;
+    margin: 8px 0;
+    background: white;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    outline: none;
+    color: gray;    
+}
+
+label.checktext, .quantity, .country{
+  color:  black;
+  margin: auto;
+  padding-right: 5px;   
+}
